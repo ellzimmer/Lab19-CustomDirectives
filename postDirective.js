@@ -3,8 +3,8 @@ angular
 	.directive('postsdir', function(){
   
 	  return{
- 	   restrict: "EA",
- 	   template: "<p>{{post.a}}</p>",
- 	   replace: false
+ 	   restrict: "E",
+ 	   template: "<div>{{post.a}}</div>",
+ 	   replace: true
   };
 });

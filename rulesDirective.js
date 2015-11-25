@@ -3,8 +3,8 @@ angular
 	.directive('rules', function(){
   
 	  return{
- 	   restrict: "EA",
- 	   template: "<h1>I'm the rules</h1>",
- 	   replace: false
+ 	   restrict: "E",
+ 	   template: "<div>I'm the rules</div>",
+ 	   replace: true
   };
 });

@@ -1,10 +1,9 @@
 angular
 	.module('myMod')
 	.directive('masthead', function(){
-  
-	  return{
- 	   restrict: "EA",
- 	   template: "<header>I'm the masthead</header>",
- 	   replace: false
-  };
+		return{
+ 	   		restrict: "E",
+ 	   		template: "<div>I'm the masthead</div>",
+ 	   		replace: true
+  		};
 });

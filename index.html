@@ -5,26 +5,20 @@
 	<meta charset='utf-8'>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 
-	<title></title>
+	<title>Custom Directives</title>
 </head>
 <body ng-app='myMod'>
 	<div ng-controller="TestController">
-		<div data-masthead></div>
+		<masthead id="mast"></masthead>
 		<div ng-repeat="post in posts">
-			<div data-navdir></div>
+			<navdir id="buttons"></navdir>
 		</div>
 		<div ng-repeat="post in posts">
-			<div data-postsdir></div>
+			<postsdir id="posts"></postsdir>
 		</div>
-		<div data-login></div>
-		<div data-rules></div>
+		<login id="form"></login>
+		<rules id="rules"></rules>
 	</div>
-
-
-
-
-
-
 
 <script data-require="angular.js@*" data-semver="1.4.0" src="https://code.angularjs.org/1.4.0/angular.js"></script>
 <script src="script.js"></script>

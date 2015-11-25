@@ -3,8 +3,8 @@ angular
 	.directive('login', function(){
   
 	  return{
- 	   restrict: "EA",
- 	   template: "<form>I'm a form</form>",
- 	   replace: false
+ 	   restrict: "E",
+ 	   template: "<div>I'm a form</div>",
+ 	   replace: true
   };
 });

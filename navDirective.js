@@ -3,8 +3,8 @@ angular
 	.directive('navdir', function(){
   
 	  return{
- 	   restrict: "EA",
+ 	   restrict: "E",
  	   template: "<button>{{post.a}}</button>",
- 	   replace: false
+ 	   replace: true
   };
 });
