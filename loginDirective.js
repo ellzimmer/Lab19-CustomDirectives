@@ -4,7 +4,7 @@ angular
   
 	  return{
  	   restrict: "E",
- 	   template: "<div>I'm a form</div>",
+ 	   template: "<form>Sign-in<p><input type='text'placeholder='email'/><p><input type='text' placeholder='password'/></form>",
  	   replace: true
   };
 });

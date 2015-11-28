@@ -10,8 +10,8 @@
 <body ng-app='myMod'>
 	<div ng-controller="TestController">
 		<masthead id="mast"></masthead>
-		<div ng-repeat="post in posts">
-			<navdir id="buttons"></navdir>
+		<div class="group">
+			<navdir id="buttons" ng-repeat="post in posts"></navdir>
 		</div>
 		<div ng-repeat="post in posts">
 			<postsdir id="posts"></postsdir>
